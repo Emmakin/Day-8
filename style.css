@@ -1,0 +1,290 @@
+ @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+}
+
+body{
+    gap: 2rem;
+}
+
+header {
+    margin: 0.2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 30%;
+    padding: 0.2rem;
+}
+
+.logo {
+    height: 12px;
+    width: 12px;
+}
+
+.sub-menu1 {
+    padding: 0.2rem;
+    display: flex;
+    gap: 50%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sub-menu1T{
+    color: palevioletred;
+}
+
+.sub-menu1T:hover {
+    color: black;
+    transition: 0.2ms;
+}
+
+.sub-menu2{
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logoBtn{
+    padding: 0.2rem;
+    height: 33px;
+    background-color: white;
+    border-radius: 0.3rem;
+    border: 2px solid;
+}
+
+.logoBtn:hover{
+    color: white;
+    background-color: palevioletred;
+    transition: 0.2ms;
+    cursor: pointer;
+    
+}
+
+.C-img{
+    width: 100%;
+}
+
+.img-C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.intro{
+    position: absolute;
+    font-size: 2em;
+    top: 20rem;
+    left: 33.3%;
+}
+
+.subText{
+    font-size: 2rem;
+}
+
+.intro-word{
+    color: palevioletred;
+    font-size: 2.3em;
+}
+
+.imgBtn{
+    font-size: 30px;
+    left: 33.3%;
+    padding: 0.4rem;
+    border: 2px solid;
+    border-radius: 0.2rem;
+    background: none;
+    position: absolute;
+    cursor: pointer;
+}
+
+.imgBtn:hover{
+    transition: ease-out 0.8ms;
+    color: palevioletred;
+    background: black;
+}
+
+.about{
+    height: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+
+.about-t{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.about-subText{
+    left: 0;
+    font-size: 2rem;
+    padding: 0rem 5rem;
+}
+
+.about-text{
+    font-size: 1rem;
+    padding: 0rem 5rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.aboutBtn{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    border: 1.5px solid;
+    border-radius: 0.2rem;
+    background: none;
+    cursor: pointer;
+}
+
+.aboutBtn:hover{
+    transition: ease-out 0.8ms;
+    color: palevioletred;
+    background: black;
+}
+
+.about-i {
+    padding: 0 0 2rem 0;
+    width: 50%;
+}
+
+.about-img-C{
+    position: relative;
+    border: 9px solid rgba(218, 165, 32, 0.52);
+    width: 30rem;
+    height: 30rem;
+}
+
+.about-img{
+    position: absolute;
+    bottom: -2rem;
+    right: -2rem;
+    height: 100%;
+    width: 100%;
+}
+
+.about-img:hover{
+    transition: ease-in-out 1.5s;
+    bottom: 0;
+    right: 0;
+}
+
+.our-store{
+    background: rgba(128, 128, 128, 0.15);
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.our-storeBtns{
+    display: flex;
+    flex-direction: row;
+}
+
+#our-storeBtn{
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.4rem;
+    border: 1.5px solid;
+    border-radius: 0.2rem;
+    background: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#our-storeBtn:hover{
+    transition: ease-out 0.8ms;
+    color: palevioletred;
+    background: black;
+}
+
+.searchBar{
+    display: flex;
+    flex-direction: row;
+}
+.searchIconC{
+    background-color: rgba(216, 112, 147, 0.762);
+    padding: 0.7rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.2rem;
+}
+
+.searchIconC:hover{
+    background-color: rgb(216, 112, 147);
+    transition: 5ms;
+}
+
+.searchBox{
+    border: 1.5px solid rgba(128, 128, 128, 0.3);
+    border-radius: 0.2rem;
+    width: 20rem;
+    padding: 0 0.4rem;
+}
+
+.itemsDiv{
+    padding: 0 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    
+}
+
+figure{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.4rem;
+}
+
+.item-img{
+    width: 100%;
+}
+
+.item-text{
+    background: white;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40%;
+    height: 5rem;
+    width: 20rem;
+}
+
+.show {
+    display: block;
+}
+
+.is-hidden{
+    display: none;
+}
+
+
+
+
